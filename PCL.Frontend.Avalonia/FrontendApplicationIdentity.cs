@@ -2,7 +2,7 @@ namespace PCL.Frontend.Avalonia;
 
 internal static class FrontendApplicationIdentity
 {
-    internal const string DisplayName = "PCL-ME";
+    internal const string DisplayName = "PCL - 难道JZX不是神吗（改）";
     internal const string LinuxDesktopFileId = "org.pcl.me.frontend";
     internal const string LinuxWindowClass = LinuxDesktopFileId;
     internal const string LinuxPackageIconFileName = "icon.png";

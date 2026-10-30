@@ -36,6 +36,12 @@ internal sealed partial class LauncherViewModel
                 _i18n.T("setup.about.project.original_author.action"),
                 CreateLinkCommand(_i18n.T("setup.about.project.original_author.command"), "https://ifdian.net/a/LTCat")),
             new AboutEntryViewModel(
+                "PCL - 难道JZX不是神吗（改）",
+                "本启动器为第三方基于 PCL-ME 的独立二次创作，非官方版本。",
+                LoadLauncherBitmap("Images", "icon.png"),
+                "查看源码",
+                CreateLinkCommand("打开源码仓库", "https://github.com/jz-xbian/PCL-ME")),
+            new AboutEntryViewModel(
                 "TheUnknownThing",
                 _i18n.T("setup.about.project.maintainer.summary"),
                 LoadLauncherBitmap("Images", "Heads", "TheUnknownThing.jpg"),

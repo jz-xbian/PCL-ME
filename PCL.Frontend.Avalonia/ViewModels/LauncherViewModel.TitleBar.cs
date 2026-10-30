@@ -17,7 +17,7 @@ internal sealed partial class LauncherViewModel
     public bool ShowImageTitleBarBranding => ShowWindowBranding && SelectedLogoTypeIndex == 3 && TitleBarCustomLogoImage is not null;
 
     public string TitleBarCustomText => string.IsNullOrWhiteSpace(LogoTextValue)
-        ? "Plain Craft Launcher"
+        ? "PCL - 难道JZX不是神吗（改）"
         : LogoTextValue.Trim();
 
     public Bitmap? TitleBarCustomLogoImage => _titleBarLogoImage;
